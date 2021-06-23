@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  height: 100vh;
+  font-family: "Poppins";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navbar {
+  background: #0a0f29;
+  padding-top: 5%;
+  text-align: center;
+  .logo {
+    padding-left: 4em;
+  }
+
+  .nav-links {
+    display: flex;
+    padding-right: 10%;
+    a {
+      color: #ffffff;
+      padding: 0 2em;
+      font-size: 18px;
+      font-weight: 200;
+    }
+  }
+}
+
+.blue {
+  color: #0a0f29;
+}
+.sub-color {
+  color: #57e79a;
+}
+
+.hero {
+  padding-top: 10%;
+  padding-bottom: 16%;
+  background-color: #0a0f29;
+  span {
+    font-size: 24px;
+    font-weight: 200;
+  }
+  p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+  }
+}
+
+.about-me {
+  background-color: #f7f7f7f7;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  .one {
+    span {
+      font-size: 48px;
+      font-weight: 800;
+    }
+
+    .about-text {
+      width: 90%;
+      text-align: justify;
+    }
+  }
+  .skills {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.project {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #f7f7f7f7;
+  .one {
+    text-align: center;
+    .project-desc {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    .project-desc-plus {
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .repo-btn {
+      a {
+        text-decoration: none;
+      }
+      width: 150px;
+      height: 50px;
+      outline: none;
+      color: white;
+      font-size: 12px;
+      border-radius: 30px;
+      background: #57e79a;
+      position: relative;
+      border: 3px solid #f7f7f7f7;
+      z-index: 1;
+      transition-duration: 0.4s;
+    }
+
+    .repo-btn:hover {
+      background-color: #ffffff;
+      border-color: #57e79a; /* Green */
+      color: #57e79a;
+    }
+  }
+  .two {
+    img {
+      -webkit-filter: drop-shadow(5px 5px 5px #222222);
+      filter: drop-shadow(5px 5px 5px #222222);
+      border-radius: 20px;
+    }
+  }
+}
+
+.contact {
+  background-color: #0a0f29;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  .contact-col {
+    padding-left: 5em;
+    .question {
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .mail {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      transition-duration: 6s;
+    }
+    .social {
+      padding-top: 1em;
+      padding-left: 4em;
+      .social-logo {
+        padding: 0.5em;
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}

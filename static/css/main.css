@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  height: 100vh;
+  font-family: "Poppins";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar {
+  background: #0a0f29;
+  padding-top: 5%;
+  text-align: center;
+}
+.navbar .logo {
+  padding-left: 4em;
+}
+.navbar .nav-links {
+  display: flex;
+  padding-right: 10%;
+}
+.navbar .nav-links a {
+  color: #ffffff;
+  padding: 0 2em;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.blue {
+  color: #0a0f29;
+}
+
+.sub-color {
+  color: #57e79a;
+}
+
+.hero {
+  padding-top: 10%;
+  padding-bottom: 16%;
+  background-color: #0a0f29;
+}
+.hero span {
+  font-size: 24px;
+  font-weight: 200;
+}
+.hero p {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.about-me {
+  background-color: #f7f7f7f7;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.about-me .one span {
+  font-size: 48px;
+  font-weight: 800;
+}
+.about-me .one .about-text {
+  width: 90%;
+  text-align: justify;
+}
+.about-me .skills {
+  width: 500px;
+  height: 500px;
+}
+
+.project {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #f7f7f7f7;
+}
+.project .one {
+  text-align: center;
+}
+.project .one .project-desc {
+  font-size: 32px;
+  font-weight: 600;
+}
+.project .one .project-desc-plus {
+  font-size: 20px;
+  font-weight: 300;
+}
+.project .one .repo-btn {
+  width: 150px;
+  height: 50px;
+  outline: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 30px;
+  background: #57e79a;
+  position: relative;
+  border: 3px solid #f7f7f7f7;
+  z-index: 1;
+  transition-duration: 0.4s;
+}
+.project .one .repo-btn a {
+  text-decoration: none;
+}
+.project .one .repo-btn:hover {
+  background-color: #ffffff;
+  border-color: #57e79a;
+  /* Green */
+  color: #57e79a;
+}
+.project .two img {
+  filter: drop-shadow(5px 5px 5px #222222);
+  border-radius: 20px;
+}
+
+.contact {
+  background-color: #0a0f29;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+}
+.contact .contact-col {
+  padding-left: 5em;
+}
+.contact .contact-col .question {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact .contact-col .mail {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  transition-duration: 6s;
+}
+.contact .contact-col .social {
+  padding-top: 1em;
+  padding-left: 4em;
+}
+.contact .contact-col .social .social-logo {
+  padding: 0.5em;
+}
+.contact .contact-col .social .social-logo img {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=main.css.map */
