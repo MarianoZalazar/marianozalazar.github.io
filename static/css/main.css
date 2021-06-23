@@ -59,8 +59,8 @@ a {
 
 .about-me {
   background-color: #f7f7f7f7;
-  padding-top: 6%;
-  padding-bottom: 6%;
+  padding-top: 3em;
+  padding-bottom: 2.5em;
 }
 .about-me .one span {
   font-size: 48px;
@@ -76,8 +76,8 @@ a {
 }
 
 .project {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
   background-color: #f7f7f7f7;
 }
 .project .one {
