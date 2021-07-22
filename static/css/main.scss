@@ -71,6 +71,7 @@ a {
     }
 
     .about-text {
+      font-weight: 300;
       width: 90%;
       text-align: justify;
     }
@@ -92,7 +93,7 @@ a {
       font-weight: 600;
     }
     .project-desc-plus {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 300;
     }
 
@@ -121,9 +122,11 @@ a {
   }
   .two {
     img {
-      -webkit-filter: drop-shadow(5px 5px 5px #222222);
-      filter: drop-shadow(5px 5px 5px #222222);
+      -webkit-filter: drop-shadow(5px 5px 5px #585858);
+      filter: drop-shadow(5px 5px 5px #585858);
       border-radius: 20px;
+      height: 335px;
+      width: 500px;
     }
   }
 }
